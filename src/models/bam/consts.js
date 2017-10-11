@@ -1,0 +1,16 @@
+export const BAM_MAGIC = 21840194;
+export const BAI_MAGIC = 21578050;
+export const SECRET_DECODER = ['=', 'A', 'C', 'x', 'G', 'x', 'x', 'x', 'T', 'x', 'x', 'x', 'x', 'x', 'x', 'N'];
+export const CIGAR_DECODER = ['M', 'I', 'D', 'N', 'S', 'H', 'P', '=', 'X', '?', '?', '?', '?', '?', '?', '?'];
+export const READ_PAIRED_FLAG = 0x1;
+export const PROPER_PAIR_FLAG = 0x2;
+export const READ_UNMAPPED_FLAG = 0x4;
+export const MATE_UNMAPPED_FLAG = 0x8;
+export const READ_STRAND_FLAG = 0x10;
+export const MATE_STRAND_FLAG = 0x20;
+export const FIRST_OF_PAIR_FLAG = 0x40;
+export const SECOND_OF_PAIR_FLAG = 0x80;
+export const SECONDARY_ALIGNMNET_FLAG = 0x100;
+export const READ_FAILS_VENDOR_QUALITY_CHECK_FLAG = 0x200;
+export const DUPLICATE_READ_FLAG = 0x400;
+export const SUPPLEMENTARY_ALIGNMENT_FLAG = 0x800;
